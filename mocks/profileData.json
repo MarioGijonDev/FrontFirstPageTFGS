@@ -1,0 +1,11 @@
+
+{
+  "spanish": {
+    "isRegisteredText": "Aún no me registré",
+    "isNotRegisteredText": "Ya me registré"
+  },
+  "english": {
+    "isRegisteredText": "Not registered yet",
+    "isNotRegisteredText": "I'm just registered"
+  }
+}

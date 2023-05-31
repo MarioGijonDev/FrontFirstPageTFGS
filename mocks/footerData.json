@@ -1,0 +1,64 @@
+
+{
+  "spanish": [
+    {
+      "id": "contact__aside",
+      "title": "Contacto",
+      "content": [
+        "Nombre: Mario Gijón Liétor",
+        "Teléfono: 640171644",
+        "Email: gijonlietormario@gmail.com",
+        "Github: MarioGijonDev"
+      ]
+    },
+    {
+      "id": "aditional-info__aside",
+      "title": "Información adicional",
+      "content": [
+        "Ciudad: Jaén",
+        "Código postal: 23006"
+      ]
+    },
+    {
+      "id": "social-media__aside",
+      "title": "Redes sociales",
+      "content": [
+        "Twitter:  @aitekproject",
+        "Instagram:  @aitek__project",
+        "Facebook:  @hi_aitekProject",
+        "Linkedin:  @AitekProject"
+      ]
+    }
+  ],
+
+  "english": [
+    {
+      "id": "contact__aside",
+      "title": "Contact",
+      "content": [
+        "Name: Mario Gijón Liétor",
+        "Phone: 640171644",
+        "Email: gijonlietormario@gmail.com",
+        "Github: MarioGijonDev"
+      ]
+    },
+    {
+      "id": "aditional-info__aside",
+      "title": "Aditional information",
+      "content": [
+        "City: Jaén",
+        "Postal code: 23006"
+      ]
+    },
+    {
+      "id": "social-media__aside",
+      "title": "Social media",
+      "content": [
+        "Twitter:  @aitekproject",
+        "Instagram:  @aitek__project",
+        "Facebook:  @hi_aitekProject",
+        "Linkedin:  @AitekProject"
+      ]
+    }
+  ]
+}

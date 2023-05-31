@@ -1,0 +1,84 @@
+
+{
+  "spanish": {
+    "logo": {
+      "light": {
+        "logoImg": "../../../public/img/light_logo.svg",
+        "logoName": "AITEK"
+      },
+      "dark": {
+        "logoImg": "../../../public/img/dark_logo.svg",
+        "logoName": "AITEK"
+      }
+      
+    },
+    "nav": [
+      {
+        "id": 0,
+        "title":"Inicio",
+        "href":"#home"
+      },
+      {
+        "id": 1,
+        "title": "Introducción",
+        "href": "#introduction__section"
+      },
+      {
+       "id": 2,
+       "title": "Novedades",
+       "href": "#news__section"
+      },
+      {
+        "id": 3,
+        "title": "Herramientas",
+        "href": "#tools__section"
+      },
+      {
+        "id": 4,
+        "title": "Perfil",
+        "href": "#profile__section"
+      }
+    ]
+    
+  },
+  
+  "english": {
+    "logo": {
+      "light": {
+        "logoImg": "../../../public/img/light_logo.svg",
+        "logoName": "AITEK"
+      },
+      "dark": {
+        "logoImg": "../../../public/img/dark_logo.svg",
+        "logoName": "AITEK"
+      }
+    },
+    "nav": [
+      {
+        "id": 0,
+        "title":"Home",
+        "href":"#home"
+      },
+      {
+        "id": 1,
+        "title": "Introduction",
+        "href": "#introduction__section"
+      },
+      {
+        "id": 2,
+        "title": "News",
+        "href": "#news__section"
+      },
+      {
+        "id": 3,
+        "title": "Tools",
+        "href": "#tools__section"
+      },
+      {
+        "id": 4,
+        "title": "Profile",
+        "href": "#profile__section"
+      }
+    ]
+  }
+}

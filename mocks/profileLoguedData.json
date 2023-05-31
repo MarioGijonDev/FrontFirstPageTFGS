@@ -1,0 +1,39 @@
+
+{
+  "spanish": {
+    "title": "Hola ",
+    "subtitle": "Email de tu cuenta: ",
+    "buttons": {
+        "goToApplication": {
+          "id": "go-to__button",
+          "content": "Ir a la aplicación"
+        },
+        "logout": {
+          "id": "logout__button",
+          "content": "Cerrar sesión"
+        },
+        "deleteAccount": {
+          "id": "delete-account__button",
+          "content": "Eliminar cuenta"
+        }
+    }
+  },
+  "english": {
+    "title": "Hi ",
+    "subtitle": "Your email account: ",
+    "buttons": {
+      "goToApplication": {
+        "id": "go-to__button",
+        "content": "Go to application"
+      },
+      "logout": {
+        "id": "logout__button",
+        "content": "Logout"
+      },
+      "deleteAccount": {
+        "id": "delete-account__button",
+        "content": "Delete account"
+      }
+  }
+  }
+}

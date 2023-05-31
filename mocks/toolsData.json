@@ -1,0 +1,87 @@
+
+{
+  "spanish": {
+    "title": "HERRAMIENTAS",
+    "content": [
+      {
+        "id": 0,
+        "titleCard": "Test",
+        "textCard": "Una simple detección de manos para comprobar el funcionamiento",
+        "icon": "quiz"
+      },
+      {
+        "id": 1,
+        "titleCard": "Piedra papel o tigera",
+        "textCard": "Juega al mítico juego de piedra papel o tigera con esta increible función",
+        "icon": "quiz"
+      },
+      {
+        "id": 2,
+        "titleCard": "Número de dedos",
+        "textCard": "Controla el número de dedos orientados a la cámara",
+        "icon": "quiz"
+      },
+      {
+        "id": 3,
+        "titleCard": "Control de volumen",
+        "textCard": "Controla el volumen de tu dispositivo linux (Windows proximamente)",
+        "icon": "quiz"
+      },
+      {
+        "id": 4,
+        "titleCard": "Pintor remoto",
+        "textCard": "Haz increibles dibujos con tus manos sin tocar el dispositivo",
+        "icon": "quiz"
+      },
+      {
+        "id": 5,
+        "titleCard": "Calculadora remota",
+        "textCard": "Las matematicas nunca fueron tan divertidas...o si...",
+        "icon": "quiz"
+      }
+    ]
+  },
+  
+  "english": {
+    "title": "TOOLS",
+    "content": [
+      {
+        "id": 0,
+        "titleCard": "Test",
+        "textCard": "A simple hand tracking to verify functionality.",
+        "icon": "quiz"
+      },
+      {
+        "id": 1,
+        "titleCard": "Rock Paper Scissors",
+        "textCard": "Play the legendary game of Rock Paper Scissors with this incredible feature",
+        "icon": "quiz"
+      },
+      {
+        "id": 2,
+        "titleCard": "Finger Count",
+        "textCard": "Control the number of fingers oriented towards the camera",
+        "icon": "quiz"
+      },
+      {
+        "id": 3,
+        "titleCard": "Volume Control",
+        "textCard": "Control the volume of your Linux device (Windows coming soon)",
+        "icon": "quiz"
+      },
+      {
+        "id": 4,
+        "titleCard": "Remote Painter",
+        "textCard": "Create amazing drawings with your hands without touching the device",
+        "icon": "quiz"
+      },
+      {
+        "id": 5,
+        "titleCard": "Remote Calculator",
+        "textCard": "Math has never been so fun... or has it...",
+        "icon": "quiz"
+      }
+    ]
+  }
+ } 
+

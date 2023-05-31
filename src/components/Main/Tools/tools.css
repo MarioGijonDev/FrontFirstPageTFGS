@@ -1,0 +1,165 @@
+
+#tools__section{
+  height: 100%;
+  min-height: 100vh;
+}
+
+#tools__section h2{
+  display: flex;
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 8vw;
+}
+
+#tools-content__article{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  justify-content: center;
+  align-content: center;
+  padding: 0 5vw;
+  padding-top: 3vh;
+  padding-bottom: 12vw;
+  width: 100%;
+}
+
+.tool-card {
+  height: 250px;
+  background-color: #292929;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+  border: 2px solid rgba(7, 7, 7, 0.12);
+  font-size: 16px;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.icon {
+  margin: 0 auto;
+  width: 100%;
+  height: 80px;
+  max-width:80px;
+  background: linear-gradient(90deg, #FF7E7E 0%, #FF4848 40%, rgba(0, 0, 0, 0.28) 60%);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: all 0.8s ease;
+  background-position: 0px;
+  background-size: 200px;
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+.tool-card .title {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.tool-card .text {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  font-weight: 200;
+  letter-spacing: 2px;
+  opacity: 0;
+  max-height:0;
+  transition: all 0.3s ease;
+}
+
+.tool-card:hover {
+  height: 270px;
+}
+
+.tool-card:hover .info {
+  height: 90%;
+}
+
+.tool-card:hover .text {
+  transition: all 0.3s ease;
+  opacity: 1;
+  max-height:40px;
+}
+
+.tool-card:hover .icon {
+  background-position: -120px;
+  transition: all 0.3s ease;
+}
+
+.tool-card:hover .icon i {
+  background: linear-gradient(90deg, #FF7E7E, #FF4848);
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 980px){
+  #tools-content__article{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+
+  #tools__section h2{
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 530px) {
+
+  #tools-content__article{
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media (max-height: 500px) and (max-width: 297px) {
+
+  #tools__section h2{
+    font-size: 1.1rem;
+  }
+  
+}
+
+@media (max-height: 440px) {
+
+  #tools__section h2{
+    font-size: 1.6rem;
+  }
+  
+}

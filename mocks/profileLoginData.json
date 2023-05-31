@@ -1,0 +1,48 @@
+
+
+{
+  "spanish": {
+    "title": "Perfil",
+    "form": {
+      "title": "Iniciar sesión",
+      "fields": [
+          {
+            "id": 0,
+            "type": "email",
+            "label": "Email",
+            "name": "email"
+          },
+          {
+            "id": 1,
+            "type": "password",
+            "label": "Contraseña",
+            "name": "password"
+          }
+      ],
+      "submitButton": "Preparado"
+    },
+    "swapButton": "Aún no me registré"
+  },
+
+  "english": {
+    "title": "Profile",
+    "form": {
+      "title": "Log in",
+      "fields": [
+          {
+            "type": "email",
+            "label": "Email",
+            "name": "email"
+          },
+          {
+            "type": "password",
+            "label": "Password",
+            "name": "password"
+          }
+      ],
+      "submitButton": "I'm ready"
+    },
+    "swapButton": "Not registered yet"
+  }
+ } 
+

@@ -1,0 +1,35 @@
+
+
+{
+  "spanish": {
+    "title": "NOVEDADES",
+    "content": {
+      "text": [
+          "Nueva herramienta capaz de detectar la posición de tu mano respecto a la de la pantalla visible, para determinar donde comenzar a dibujar",
+
+          "5 colores, borrador y mucha diversión"
+      ],
+      "card" : {
+        "titleCard": "Remote painter",
+        "img": "../../../../public/img/drawing-svgrepo-com.svg"
+      }
+      
+    }
+  },
+  
+  "english": {
+    "title": "News",
+    "content": {
+      "text": [
+          "New tool capable of detecting the position of your hand in relation to the visible screen, to determine where to start drawing",
+
+          "5 colors, eraser and lots of fun"
+      ],
+      "card" : {
+        "titleCard": "Remote painter",
+        "img": "../../../../public/img/drawing-svgrepo-com.svg"
+      }
+    }
+  }
+ } 
+

@@ -1,0 +1,29 @@
+
+
+ {
+  "spanish": {
+    "title": "¿EN QUE CONSISTE ESTE PROYECTO?",
+    "content": {
+      "text": [
+          "Este proyecto se basa en la creación y despliegue de herramientas de inteligencia artificial adaptadas a la web.",
+
+          "La finalidad del proyecto, es poder aplicar las tecnologías de inteligencia artificial basadas en imágenes, para que cualquier usuario con navegador y dispositivo conectado a internet, pueda acceder a ellas"
+      ],
+      "img": "../../../../public/img/pngwing.com.png"
+    }
+  },
+  
+  "english": {
+    "title": "WHAT IS THIS PROJECT ABOUT?",
+    "content": {
+      "text": [
+          "This project is based on the creation and deployment of artificial intelligence tools adapted to the web.",
+           
+          "The purpose of the project is to be able to apply artificial intelligence technologies based on images, so that any user with a browser and device connected to the Internet can access them."
+
+      ],
+      "img": "../../../../public/img/pngwing.com.png"
+    }
+  }
+ } 
+

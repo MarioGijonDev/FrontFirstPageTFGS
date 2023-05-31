@@ -1,0 +1,57 @@
+
+
+{
+  "spanish": {
+    "title": "Perfil",
+    "form": {
+      "title": "Registrarse",
+      "fields": [
+          {
+            "id": 0,
+            "type": "text",
+            "label": "Nombre",
+            "name": "name"
+          },
+          {
+            "id": 1,
+            "type": "password",
+            "label": "Contraseña",
+            "name": "password"
+          },
+          {
+            "id": 2,
+            "type": "email",
+            "label": "Email",
+            "name": "email"
+          }
+      ],
+      "submitButton": "Preparado"
+    }
+  },
+
+  "english": {
+    "title": "Profile",
+    "form": {
+      "title": "Sign in",
+      "fields": [
+          {
+            "type": "text",
+            "label": "name",
+            "name": "name"
+          },
+          {
+            "type": "password",
+            "label": "Password",
+            "name": "password"
+          },
+          {
+            "type": "email",
+            "label": "Email",
+            "name": "email"
+          }
+      ],
+      "submitButton": "I'm ready"
+    }
+  }
+ } 
+
