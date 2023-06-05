@@ -17,7 +17,7 @@
       },
       {
         "id": 2,
-        "titleCard": "Número de dedos",
+        "titleCard": "Suma de dedos",
         "textCard": "Controla el número de dedos orientados a la cámara",
         "icon": "quiz"
       },
@@ -59,7 +59,7 @@
       },
       {
         "id": 2,
-        "titleCard": "Finger Count",
+        "titleCard": "Fingers Count",
         "textCard": "Control the number of fingers oriented towards the camera",
         "icon": "quiz"
       },

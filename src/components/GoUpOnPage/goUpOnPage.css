@@ -1,0 +1,25 @@
+
+#go-up-on-page__img{
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+@media (max-width: 900px){
+  #go-up-on-page__img{
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+  }
+}
+
+@media (max-width: 600px){
+  #go-up-on-page__img{
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+  }
+}

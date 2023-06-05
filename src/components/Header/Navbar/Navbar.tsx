@@ -19,8 +19,6 @@ import { HelperHandleActiveResponsiveNavbar } from '../../../helpers/navbarManag
 
 import ScrollReveal from 'scrollreveal'
 
-
-
 export function Navbar(){
   
   useEffect(()=>{
@@ -32,12 +30,13 @@ export function Navbar(){
     });
   }, [])
 
+  // Obtenemos el idioma según el contexto
   const { idiom, handleIdiom }: IdiomContextType = useContext(IdiomContext)
-
+  // Obtenemos el tema según el contexto
   const { theme, handleTheme }: ThemeContextType = useContext(ThemeContext)
-  
+  // Obtenemos los tipos de datos de logo y nav
   const { logo, nav }: NavbarType = idiom === 'EN' ? navbarData.english : navbarData.spanish
-
+  // Obtenemos de los helpers, las acciones necesarias para la barra responsiva
   const handleActiveResponsiveNavbar = HelperHandleActiveResponsiveNavbar
 
   

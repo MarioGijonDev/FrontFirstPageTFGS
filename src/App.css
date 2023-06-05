@@ -87,10 +87,10 @@ button{
   font-size: 3rem;
 }
 
-/* .no-scroll{
+.no-scroll{
   max-height: 100vh;
   overflow: hidden;
-} */
+}
 
 p {
   text-align: center;

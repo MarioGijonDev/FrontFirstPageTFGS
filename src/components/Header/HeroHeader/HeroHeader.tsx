@@ -11,16 +11,19 @@ import { useContext, useEffect } from 'react'
 // CONTEXT
 import { IdiomContext } from '../../../context/IdiomContext'
 
+// ANIMATIONS
 import ScrollReveal from 'scrollreveal';
 
+// Compontente
 export function HeroHeader(){
 
-  // Get idiom of idiom context
+  // Obtenemos el idioma según el valor del contexto
   const { idiom } = useContext(IdiomContext)
 
-  // Get mock
-  const {heroTitle} = idiom == 'ES' ? heroData.spanish : heroData.english
+  // Obtenemos el contenido según el valor del idioma
+  const { heroTitle } = idiom == 'ES' ? heroData.spanish : heroData.english
 
+  // Ejecutamos la animación cada vez que el componente se renderice
   useEffect(()=>{
     ScrollReveal().reveal('#hero__section h1', {
       opacity: 0,
@@ -32,7 +35,7 @@ export function HeroHeader(){
 
   return (
     <section id="hero__section">
-      <h1>{heroTitle}</h1>
+      <h1>{ heroTitle }</h1>
       <article id="video">
         <video className="back__video" autoPlay loop muted playsInline>
           <source src='../../../../public/video/background-hero-video.mp4' type='video/mp4'/>
