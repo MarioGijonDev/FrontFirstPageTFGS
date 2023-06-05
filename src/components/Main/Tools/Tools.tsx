@@ -31,7 +31,6 @@ export function Tools(){
 
   useEffect(()=>{
     for (let i = 0; i <= 5; i++){
-      console.log(i)
       ScrollReveal().reveal(`#card-${i}`, {
         origin: i>=3 ? "right" : "left",
         distance: "500px",
