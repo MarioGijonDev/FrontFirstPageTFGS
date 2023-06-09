@@ -9,6 +9,8 @@ export const checkLoginApi = async ()=>{
       credentials: 'include'
     })
 
+    13
+
     const { token } = await resToken.json()
 
     // Send bearer token in headers (The backend will verify token and put another refresh token)

@@ -73,12 +73,12 @@ button{
 
 .light-background-white{
   background-color: #f2fcfc;
-  color: black;
+  color: rgb(44, 44, 44);
 }
 
 .light-background-blue{
-  background-color: #81bcc4;
-  color: black;
+  background-color: #7baec3;
+  color: rgb(44, 44, 44);
 }
 
 .section h2 {

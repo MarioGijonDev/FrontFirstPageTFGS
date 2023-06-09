@@ -42,7 +42,11 @@
 }
 
 .new-card-box__container:hover {
-  transform: scale(0.9);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 
 .new-card-box__container span {
@@ -62,7 +66,7 @@
   position: absolute;
   width: 150%;
   height: 40px;
-  background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);
+  background-image: linear-gradient(45deg, #7fb6e0 0%, #40607d  51%, #93c1e5  100%);
   transform: rotate(-45deg) translateY(-20px);
   display: flex;
   align-items: center;
@@ -72,17 +76,6 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
   box-shadow: 0 5px 10px rgba(0,0,0,0.23);
-}
-
-.new-card-box__container span::after {
-  position: absolute;
-  width: 10px;
-  bottom: 0;
-  left: 0;
-  height: 10px;
-  z-index: -1;
-  box-shadow: 140px -140px #cc3f47;
-  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
 }
 
 .new-card-box__container p:first-of-type {
