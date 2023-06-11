@@ -32,7 +32,7 @@
   "english": {
     "title": "Profile",
     "form": {
-      "title": "Sign in",
+      "title": "Register",
       "fields": [
           {
             "type": "text",

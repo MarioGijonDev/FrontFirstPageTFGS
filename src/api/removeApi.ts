@@ -1,15 +1,15 @@
 
-// This funcion is for remove user from api
+// Esta función se usará para eliminar el usuario
 export const removeApi = async ()=>{
   try{
-    // Check user is logged in
+    // Comprobamos que el usuario tiene la sesión iniciada
     const resToken = await fetch('http://localhost:3000/api/v1/auth/refresh', {
       method: 'GET',
       credentials: 'include'
     })
-
+    // Obtenemos token de acceso
     const { token } = await resToken.json()
-
+    // Enviamos el token de acceso para elimianr el usuario
     const res = await fetch('http://localhost:3000/api/v1/auth/remove', {
       method: 'GET',
       headers:{
@@ -17,10 +17,9 @@ export const removeApi = async ()=>{
         Authorization: `Bearer ${token}`
       }
     })
-
-    // If is loggued
+    // Si se ha eliminado correctamente cerramos sesión desde el navegador
+    // Recordemos que el RefreshJWT no es accesible en el cliente
     if(res.status === 200){
-      // Send petition to api
       await fetch('http://localhost:3000/api/v1/auth/logout', {
         method: 'GET',
         headers: {
@@ -28,14 +27,15 @@ export const removeApi = async ()=>{
         },
         credentials: 'include',
       })
-  
-      // Get response
+      // Obtenemos y enviamos la respuesta
       const data = await res.json()
-  
       return data
     }
-
   }catch(e){
+    // Mostramos el error por consola
     console.log(e)
   }
 }
+
+
+
