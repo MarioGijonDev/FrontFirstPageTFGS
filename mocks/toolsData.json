@@ -17,8 +17,8 @@
       },
       {
         "id": 2,
-        "titleCard": "Suma de dedos",
-        "textCard": "Controla el número de dedos orientados a la cámara",
+        "titleCard": "Sumatorio de dedos",
+        "textCard": "Cuenta el número de dedos que se encuentran alzados",
         "icon": "quiz"
       },
       {
