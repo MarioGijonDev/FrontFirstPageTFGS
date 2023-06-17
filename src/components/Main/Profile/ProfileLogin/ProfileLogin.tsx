@@ -89,7 +89,7 @@ export function ProfileLogin({handleErrors}: any){
             form.fields.map((field: FieldType, id: number) => (
               <div key={id} className="user-box">
                 <label>{field.label}</label>
-                <input type={field.type} name={field.name} id={field.name}/>
+                <input type={field.type} name={field.name} id={field.name} autoComplete='off'/>
             </div>
             ))
           }
