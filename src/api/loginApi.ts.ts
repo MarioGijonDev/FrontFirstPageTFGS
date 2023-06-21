@@ -20,7 +20,6 @@ export const loginApi = async (bodyData: any)=>{
   }catch(e){
     console.log(e)
   }
-
   
 }
 
